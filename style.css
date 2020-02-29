@@ -1,0 +1,69 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/AGAT\/IT\/PORTFOLIO\/style\.sass}line{font-family:\0000318}}
+body {
+  background-color: #254E58 !important;
+  font: Helvetica, sans-serif !important;
+  color: #47423A !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/AGAT\/IT\/PORTFOLIO\/style\.sass}line{font-family:\0000323}}
+nav {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/AGAT\/IT\/PORTFOLIO\/style\.sass}line{font-family:\0000326}}
+header, footer {
+  font: Helvetica, sans-serif;
+  background-color: #D9B595;
+  color: #47423A;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/AGAT\/IT\/PORTFOLIO\/style\.sass}line{font-family:\0000333}}
+main {
+  font: Helvetica, sans-serif;
+  background-color: #88BDBC;
+  color: #47423A;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/AGAT\/IT\/PORTFOLIO\/style\.sass}line{font-family:\0000339}}
+.nav-link {
+  color: #47423A; }
+
+/* unvisited link */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/AGAT\/IT\/PORTFOLIO\/style\.sass}line{font-family:\0000343}}
+a:link {
+  color: #47423A; }
+
+/* visited link */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/AGAT\/IT\/PORTFOLIO\/style\.sass}line{font-family:\0000347}}
+a:visited {
+  color: #47423A; }
+
+/* mouse over link */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/AGAT\/IT\/PORTFOLIO\/style\.sass}line{font-family:\0000352}}
+a:hover {
+  color: #47423A; }
+
+/* selected link */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/AGAT\/IT\/PORTFOLIO\/style\.sass}line{font-family:\0000357}}
+a:active {
+  color: #47423A; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/AGAT\/IT\/PORTFOLIO\/style\.sass}line{font-family:\0000360}}
+#agata {
+  width: 90%;
+  height: auto;
+  border-radius: 50%;
+  padding: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/AGAT\/IT\/PORTFOLIO\/style\.sass}line{font-family:\0000366}}
+.thumb {
+  max-width: 200px;
+  height: auto;
+  border-radius: 5%;
+  padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */
