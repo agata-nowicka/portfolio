@@ -5,9 +5,9 @@ $text-bcg-color: #88BDBC
 $font-color: #47423A
 $secondary-color: #D9B595
 
-$sm: 1rem
-$md: 1.7rem
-$lg: 2.8rem
+/*/ $sm: 1rem
+//$md: 1.7rem
+//$lg: 2.8rem  
 
 @mixin shape($padding, $margin, $radius) 
   padding: $padding
@@ -19,15 +19,23 @@ body
   background-color: $main-color !important
   font: $main-font  !important
   color: $font-color !important
-  
-nav
-    @include shape(10px, 10px, 5px)
+  font-size: 110%
+
+
+#melist
+  text-align: left
+
+header
+    font-size: 140%
+
       
 header, footer
   font: $main-font
   background-color: $secondary-color
   color: $font-color
   @include shape(10px, 10px, 5px)
+
+
   
   
 main
@@ -35,6 +43,7 @@ main
   background-color: $text-bcg-color
   color: $font-color
   @include shape(10px, 10px, 5px)
+
   
 .nav-link
   color: $font-color
@@ -58,13 +67,21 @@ a:active
   color: $font-color
 
 #agata
-  width: 90%
+  width: 80%
   height: auto
   border-radius: 50%
-  padding: 15px
+  padding: 0 15px 0px 15px
+  margin-left: 10px
 
 .thumb
   max-width: 200px
   height: auto
   border-radius: 5%
   padding: 10px
+
+h1
+  margin-bottom: 20px
+ 
+
+description
+  margin-top: 10px
