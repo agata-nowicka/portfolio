@@ -48,7 +48,7 @@
       	 	 <div class="col-sm-4">
        <img id="agata" src="img/myPicture.jpg" alt="Picture of Agata"> 
     </div>     
-    <div class="col-sm-8">
+    <div class="col-sm-8" id="description">
 
       	I am a beginner front-end developer. My goal is development in the IT industry. 
       	As a person with a scientific mind, I easily and willingly learn new programming issues. 
@@ -59,8 +59,10 @@
     <ul>
       <li> frontend developer </li>
       <li> sound engineer </li>
-      <li> lover of logic puzzles </li>
+      <li> fluent English speaker (C1) and intermediate French speaker (B2) </li>
+      <li> winner of many competitions and scholarships (see more on <a href="https://www.linkedin.com/in/aggat-nowicka/" target="_blank">LinkedIn </a>) </li>
       <li> hard-working, ambitous and intelligent person</li>
+
       </ul>
   </div>
    <div class="col-sm" id="melist">
@@ -68,6 +70,7 @@
         <li>lindy hop, charleston and disco fox dancer</li>
         <li>hiker and biker</li>
         <li>Terraforming Mars (and other board games) player</li>
+        <li> lover of logic puzzles </li>
         <li>traveller</li>
       </ul>
     </div>
@@ -81,30 +84,45 @@
       <section class="main-section" id="Technologies and tools">
       <h1>Technologies and tools</h1>
       <article>
-       <div class="row">
-         a
-    <div class="col-sm">
-    <ul class="list-unstyled mb-0">
-      <li>  Javascript</li>
-      <li> <i class="fab fa-html5 fa-3x"></i> HTML5</li>
-    
-      </ul>
-    </div>
-         <div class="col-sm">
-    <ul class="list-unstyled mb-0">
-      <li>  <img src="xxx" alt="JavaScript icon" height="42" width="42"> Javascript</li>
-      <li> sound engineer </li>
-    
-      </ul>
-    </div>
-        </div>
+      	<div class="row" id="toolsrow1">
+
+	   		<div class="col-sm">
+	    
+		      <i class="fab fa-js fa-2x"></i> Javascript
+		  	</div>
+		    <div class="col-sm">
+		       <i class="fab fa-html5 fa-2x"></i> HTML5
+		   	</div>
+		    <div class="col-sm">
+		     <i class="fab fa-css3-alt fa-2x"></i> CSS3
+		 	</div>
+		   	<div class="col-sm">
+		       <i class="fab fa-sass fa-2x"></i> Sass
+			 </div>
+		</div>
+
+	     <div class="row">
+	        <div class="col-sm">    
+		     <i class="fab fa-bootstrap fa-2x"></i> Bootstrap
+		 	</div>
+		  	<div class="col-sm">
+		      jQuery (begginer)
+			</div>
+		 	<div class="col-sm">
+		      <i class="fab fa-react fa-2x"></i> React (beginner)
+		  	</div>
+		   	<div class="col-sm">
+		      <i class="fab fa-git fa-2x"></i> Git
+		    </div>
+		</div>
+	     
       </article>
     </section>
       <section class="main-section" id="Projects">
       <h1>Projects</h1>
      <div class="row">
       <div class="col-sm">
-       <a href="https://agata-nowicka.github.io/rooms/" target="_blank"><img class="thumb" src="xx" alt="in progress"></a>
+       <a href="https://agata-nowicka.github.io/rooms/" target="_blank"><img class="thumb" src="img/room.png" alt="Rooms"></a>
     </div> 
      <div class="col-sm">
        <a href="https://agata-nowicka.github.io/To-do-list_js/" target="_blank"><img class="thumb"src="img/todo.png" alt="xxx"></a>
@@ -120,10 +138,11 @@
     </div> 
      </div>
     </section>
-      <section class="main-section" id="Contact">
+
+
+    <section class="main-section" id="Contact">
      
-    <!--Section: Contact v.2-->
-<section class="mb-4">
+
  <h1>Contact</h1>
     <!--Section description-->
     <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
@@ -188,7 +207,7 @@
             </form>
 
             <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                <a class="btn" id="button" onclick="validateForm();">Send</a>
             </div>
             <div class="status"></div>
         </div>
@@ -218,11 +237,7 @@
         <!--Grid column-->
 
     </div>
-
-</section>
-<!--Section: Contact v.2-->
-        
-      
+     
     </section>
   
       </main>

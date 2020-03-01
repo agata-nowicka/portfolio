@@ -4,6 +4,7 @@ $main-color: #254E58
 $text-bcg-color: #88BDBC
 $font-color: #47423A
 $secondary-color: #D9B595
+$link-color: #418c9e
 
 /*/ $sm: 1rem
 //$md: 1.7rem
@@ -20,6 +21,7 @@ body
   font: $main-font  !important
   color: $font-color !important
   font-size: 110%
+  line-height: 30px
 
 
 #melist
@@ -59,7 +61,7 @@ a:visited
 
 /* mouse over link */
 a:hover 
-  color: $font-color
+  color: $link-color
 
 
 /* selected link */
@@ -70,18 +72,47 @@ a:active
   width: 80%
   height: auto
   border-radius: 50%
-  padding: 0 15px 0px 15px
+  padding-left: 15px
   margin-left: 10px
 
 .thumb
-  max-width: 200px
+  max-width: 350px
   height: auto
   border-radius: 5%
   padding: 10px
 
+.thumb:hover
+  opacity: 0.5
+
 h1
-  margin-bottom: 20px
+  margin-top: 20px
+  margin-bottom: 30px
+  font-weight: bold
  
 
 description
   margin-top: 10px
+
+section
+  margin-bottom: 50px
+
+#toolsrow1
+  margin-top: 40px
+  margin-bottom: 30px
+
+.btn
+  background-color: $secondary-color
+  border: none  
+  padding: 15px 32px
+  text-align: center
+  text-decoration: none
+  display: inline-block
+  font-size: 16px
+  transition-duration: 0.4s
+  font-weight: bold
+
+.btn:hover 
+  background-color: $link-color
+  opacity: 0.5
+
+  
