@@ -16,7 +16,7 @@
 <script src="https://kit.fontawesome.com/68bc919f01.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+   <!-- <script src="script.js"></script> -->
 
   </head>
   <div class="container-fluid">
@@ -106,7 +106,7 @@
 		     <i class="fab fa-bootstrap fa-2x"></i> Bootstrap
 		 	</div>
 		  	<div class="col-sm">
-		      jQuery (begginer)
+		      jQuery (beginner)
 			</div>
 		 	<div class="col-sm">
 		      <i class="fab fa-react fa-2x"></i> React (beginner)
@@ -121,7 +121,7 @@
       <section class="main-section" id="Projects">
       <h1>Projects</h1>
      <div class="row">
-      <div class="col-sm">
+      <div class="col-sm" class="container">
        <a href="https://agata-nowicka.github.io/rooms/" target="_blank"><img class="thumb" src="img/room.png" alt="Rooms"></a>
     </div> 
      <div class="col-sm">
@@ -152,7 +152,8 @@
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form id="contact-form" name="contact-form"action="mail.php" method="POST"
+            >
 
                 <!--Grid row-->
                 <div class="row">
@@ -207,7 +208,7 @@
             </form>
 
             <div class="text-center text-md-left">
-                <a class="btn" onclick="validateForm();">Send</a>
+            	<input type="submit" value="Send" class="btn">
             </div>
             <div class="status"></div>
         </div>
