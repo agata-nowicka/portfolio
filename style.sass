@@ -80,11 +80,13 @@ a:active
   height: auto
   border-radius: 5%
   padding: 10px
- 
+  transition: .3s ease
 
-.thumb:hover
+
+.thumb:hover 
   opacity: 0.5
 
+  
 h1
   margin-top: 20px
   margin-bottom: 30px
@@ -118,49 +120,26 @@ section
   background-color: $link-color
   opacity: 0.5
 
-/*.center 
- // position: absolute
-  /top: 50%
- / left: 50%
- / transform: translate(-50%, -50%)
- / font-size: 18px
+#topBtn 
+  display: none /* Hidden by default */
+  position: fixed /* Fixed/sticky position */
+  bottom: 20px /* Place the button at the bottom of the page */
+  right: 30px /* Place the button 30px from the right */
+  z-index: 99 /* Make sure it does not overlap */
+  border: none /* Remove borders */
+  outline: none /* Remove outline */
+  background-color: $font-color 
+  color: $secondary-color
+  cursor: pointer /* Add a mouse pointer on hover */
+  padding: 15px /* Some padding */
+  border-radius: 10px /* Rounded corners */
+  font-size: 28px 
+  font-weight: bold
+  text-align: center
+  width: 6%
 
 
-.container 
-  position: relative
-  width: 50%
 
+#topBtn:hover 
+  background-color: $link-color
 
-
-.overlay 
-  position: absolute
-  bottom: 0
-  left: 0
-  right: 0
-  background-color: #008CBA
-  overflow: hidden
-  width: 100%
-  height: 0
-  transition: .5s ease
-
-
-container:hoover:after
-
-  background: rgba(0, 0, 0, 0.50)
-  content: ''
-  position: absolute
-  width: 200px
-  height: 200px
-
-
-.text 
-  white-space: nowrap
-  color: white
-  font-size: 20px
-  position: absolute
-  overflow: hidden
-  top: 50%
-  left: 50%
-  transform: translate(-50%, -50%)
-  -ms-transform: translate(-50%, -50%)
-  

@@ -11,16 +11,23 @@
      <meta name="keywords" content="słowa, kluczowe, opisujące, zawartość">
      <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <link rel='icon' href='favicon.ico' type='img/favicon'/ >
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
 <script src="https://kit.fontawesome.com/68bc919f01.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
-   <!-- <script src="script.js"></script> -->
+   <script src="script.js"></script>
 
   </head>
   <div class="container-fluid">
   <body class="text-center">
+  	<button onclick="topFunction()" id="topBtn" title="Go to top">^</button> 
+  
    <nav>
       </nav>
       <header>
@@ -108,9 +115,7 @@
 		  	<div class="col-sm">
 		      jQuery (beginner)
 			</div>
-		 	<div class="col-sm">
-		      <i class="fab fa-react fa-2x"></i> React (beginner)
-		  	</div>
+		 	
 		   	<div class="col-sm">
 		      <i class="fab fa-git fa-2x"></i> Git
 		    </div>
@@ -121,20 +126,38 @@
       <section class="main-section" id="Projects">
       <h1>Projects</h1>
      <div class="row">
-      <div class="col-sm" class="container">
-       <a href="https://agata-nowicka.github.io/rooms/" target="_blank"><img class="thumb" src="img/room.png" alt="Rooms"></a>
-    </div> 
+
+
+
+     	
+     	<div class="col-sm">
+  
+		  <a href="https://agata-nowicka.github.io/rooms/" target="_blank">
+		  <figure><img class="thumb" src="img/room.png" alt="Rooms"> </a>
+		  	 <figcaption>An application to make a reservation for a room at school (in progress) </figcaption>
+		  	</figure>
+		 
+
+		</div>
+
+     
+
+     
+   
      <div class="col-sm">
-       <a href="https://agata-nowicka.github.io/To-do-list_js/" target="_blank"><img class="thumb"src="img/todo.png" alt="xxx"></a>
+      <figure> <a href="https://agata-nowicka.github.io/To-do-list_js/" target="_blank"><img class="thumb"src="img/todo.png" alt="to-do-list"></a><figcaption>Application to make a reservation for a room at school (in progress) </figcaption></figure>
     </div> 
     <div class="col-sm">
-       <a href="https://agata-nowicka.github.io/Tribute-page-FCC/" target="_blank"><img class="thumb" src="img/tribute.png" alt="xxx"></a>
+      <figure> <a href="https://agata-nowicka.github.io/Tribute-page-FCC/" target="_blank"><img class="thumb" src="img/tribute.png" alt="tribute-page"></a><figcaption>Tribute page </figcaption>
+      </figure>
     </div> 
     <div class="col-sm">
-       <a href="https://agata-nowicka.github.io/survey-form/" target="_blank"><img class="thumb" src="img/form.png" alt="xxx"></a>
+       <figure><a href="https://agata-nowicka.github.io/survey-form/" target="_blank"><img class="thumb" src="img/form.png" alt="survey-form"></a><figcaption>Survey form</figcaption>
+       </figure>
     </div> 
      <div class="col-sm">
-       <a href="https://agata-nowicka.github.io/Technical-Documentation/" target="_blank"><img class="thumb" src="img/izotope.png" alt="xxx"></a>
+       <figure><a href="https://agata-nowicka.github.io/Technical-Documentation/" target="_blank"><img class="thumb" src="img/izotope.png" alt="technical-documentation"></a><figcaption>Technical documentation page </figcaption>
+       </figure>
     </div> 
      </div>
     </section>
@@ -144,10 +167,8 @@
      
 
  <h1>Contact</h1>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        a matter of hours to help you.</p>
-
+   
+  
     <div class="row">
 
         <!--Grid column-->
@@ -240,14 +261,12 @@
     </div>
      
     </section>
-  
+     
       </main>
       <footer>
         Created by Agata Nowicka
       </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
   </body>
   </div>
   
