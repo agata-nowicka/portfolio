@@ -54,14 +54,14 @@ a:active {
   margin-left: 10px;
   margin-top: 20px; }
 
-.thumb {
+#thumb {
   max-width: 350px;
   height: auto;
   border-radius: 5%;
   padding: 10px;
   transition: 0.3s ease; }
 
-.thumb:hover {
+#thumb:hover {
   opacity: 0.5; }
 
 h1 {
