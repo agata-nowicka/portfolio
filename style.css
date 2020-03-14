@@ -1,4 +1,3 @@
-/*/ $sm: 1rem */
 body {
   background-color: #254E58 !important;
   font: Helvetica, sans-serif !important;
@@ -7,7 +6,9 @@ body {
   line-height: 30px; }
 
 #melist {
-  text-align: left; }
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 15px; }
 
 header {
   font-size: 140%; }
@@ -35,11 +36,9 @@ main {
 a:link {
   color: #47423A; }
 
-/* visited link */
 a:visited {
   color: #47423A; }
 
-/* mouse over link */
 a:hover {
   color: #418c9e; }
 
@@ -48,11 +47,12 @@ a:active {
   color: #47423A; }
 
 #agata {
-  width: 80%;
+  max-width: 70%;
   height: auto;
   border-radius: 50%;
   padding-left: 15px;
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin-top: 20px; }
 
 .thumb {
   max-width: 350px;
