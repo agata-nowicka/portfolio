@@ -1,9 +1,8 @@
-# Agata Nowicka's portfolio
-
+# Agata Nowicka's portfolio ![Favicon](./favicon.ico)
+<div align="center">
 Take a look at my front-end projects, get to know me better.
 
-<div align="center">
-[Website demo](https://agata-nowicka.netlify.app/ "Logo Title Text 1")
+[Website demo](https://agata-nowicka.netlify.app/)
  
 ![Website screenshot](./img/content.png)
 </div>
@@ -17,6 +16,6 @@ Take a look at my front-end projects, get to know me better.
 
 
 ### Status
-The basic version of the project is done. In the future, the portfolio will have more modern design
+The basic version of the project is done. In the future, the portfolio will have a more modern design
 
 
