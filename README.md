@@ -1,6 +1,6 @@
 # ![Favicon](./favicon-32x32.png) Agata Nowicka's portfolio 
 <div align="center">
-  <font size="2">
+  <font size="3">
 Take a look at my front-end projects, get to know me better.
 
 [Website demo](https://agata-nowicka.netlify.app/)
